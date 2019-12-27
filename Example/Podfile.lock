@@ -1,0 +1,16 @@
+PODS:
+  - XYUIKitTreeManager (0.1.0)
+
+DEPENDENCIES:
+  - XYUIKitTreeManager (from `../`)
+
+EXTERNAL SOURCES:
+  XYUIKitTreeManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYUIKitTreeManager: c8e21f82d322a91aa6327190e37dc78e5c320c8e
+
+PODFILE CHECKSUM: dbdc0aa12ab66d0d4073c34237208d14cda5c66c
+
+COCOAPODS: 1.7.4

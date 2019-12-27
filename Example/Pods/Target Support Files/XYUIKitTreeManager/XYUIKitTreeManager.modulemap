@@ -1,0 +1,6 @@
+framework module XYUIKitTreeManager {
+  umbrella header "XYUIKitTreeManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

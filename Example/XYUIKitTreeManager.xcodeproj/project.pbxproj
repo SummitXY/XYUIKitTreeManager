@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2DB60E78A0A892000120F185 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2DB60E78A0A892000120F185 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4816E4DDBF7DF63658E9EF46 /* Pods-XYUIKitTreeManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYUIKitTreeManager_Example.release.xcconfig"; path = "Target Support Files/Pods-XYUIKitTreeManager_Example/Pods-XYUIKitTreeManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XYUIKitTreeManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYUIKitTreeManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,8 +61,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9231A82D3B9917BFF4B139A8 /* Pods_XYUIKitTreeManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYUIKitTreeManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B188D60AE95075F7CFDF27F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B1A5263A121837E103744085 /* XYUIKitTreeManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XYUIKitTreeManager.podspec; path = ../XYUIKitTreeManager.podspec; sourceTree = "<group>"; };
+		B188D60AE95075F7CFDF27F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B1A5263A121837E103744085 /* XYUIKitTreeManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYUIKitTreeManager.podspec; path = ../XYUIKitTreeManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BDB05FBAF5F6CA5066C01CA4 /* Pods_XYUIKitTreeManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYUIKitTreeManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF794526DB6888A9E42D8E3C /* Pods-XYUIKitTreeManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYUIKitTreeManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-XYUIKitTreeManager_Example/Pods-XYUIKitTreeManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E9C00D20627CBC7B66F7BCEA /* Pods-XYUIKitTreeManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYUIKitTreeManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XYUIKitTreeManager_Tests/Pods-XYUIKitTreeManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				E9C00D20627CBC7B66F7BCEA /* Pods-XYUIKitTreeManager_Tests.debug.xcconfig */,
 				FC0182BF97A4AD8D7F4862B2 /* Pods-XYUIKitTreeManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

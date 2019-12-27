@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XYUIKitTreeManager/Classes/**/*'
+  s.source_files = 'XYUIKitTreeManager/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'XYUIKitTreeManager' => ['XYUIKitTreeManager/Assets/*.png']

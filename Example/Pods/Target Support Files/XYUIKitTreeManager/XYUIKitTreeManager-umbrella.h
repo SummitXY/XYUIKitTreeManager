@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XYUIKitTreeManager.h"
 
 FOUNDATION_EXPORT double XYUIKitTreeManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char XYUIKitTreeManagerVersionString[];

@@ -7,6 +7,7 @@
 //
 
 #import "XYViewController.h"
+#import "XYUIKitTreeManager.h"
 
 @interface XYViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"main window %@",[XYUIKitTreeManager mainWindow]);
+    NSLog(@"is pad :%ld",(long)[XYUIKitTreeManager _isPadDevice]);
 }
 
 - (void)didReceiveMemoryWarning

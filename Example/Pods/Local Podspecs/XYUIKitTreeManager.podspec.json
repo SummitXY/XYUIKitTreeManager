@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of XYUIKitTreeManager.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/quxiangyu/XYUIKitTreeManager",
+  "homepage": "https://github.com/SummitXY/XYUIKitTreeManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "quxiangyu": "quxiangyu116@bytedance.com"
   },
   "source": {
-    "git": "https://github.com/quxiangyu/XYUIKitTreeManager.git",
+    "git": "https://github.com/SummitXY/XYUIKitTreeManager.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XYUIKitTreeManager/Classes/*"
+  "source_files": "XYUIKitTreeManager/Classes/**/*.{h,m}"
 }

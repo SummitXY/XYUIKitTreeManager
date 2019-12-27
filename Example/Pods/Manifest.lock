@@ -2,15 +2,15 @@ PODS:
   - XYUIKitTreeManager (0.1.0)
 
 DEPENDENCIES:
-  - XYUIKitTreeManager (from `../`)
+  - XYUIKitTreeManager (from `../XYUIKitTreeManager.podspec`)
 
 EXTERNAL SOURCES:
   XYUIKitTreeManager:
-    :path: "../"
+    :path: "../XYUIKitTreeManager.podspec"
 
 SPEC CHECKSUMS:
-  XYUIKitTreeManager: 8d23d1bd74759cf75e48e43e7e89c932d6a54055
+  XYUIKitTreeManager: b397502afa82c92da06b3447131c685494a0f1c6
 
-PODFILE CHECKSUM: dbdc0aa12ab66d0d4073c34237208d14cda5c66c
+PODFILE CHECKSUM: d8622e72f2eae88813d4808c2c24406a78d8095b
 
 COCOAPODS: 1.7.4

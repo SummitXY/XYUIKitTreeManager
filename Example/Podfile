@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'XYUIKitTreeManager_Example' do
-  pod 'XYUIKitTreeManager', :path => '../'
+  pod 'XYUIKitTreeManager', :path => '../XYUIKitTreeManager.podspec'
 
   target 'XYUIKitTreeManager_Tests' do
     inherit! :search_paths

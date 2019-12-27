@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/quxiangyu/XYUIKitTreeManager'
+  s.homepage         = 'https://github.com/SummitXY/XYUIKitTreeManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'quxiangyu' => 'quxiangyu116@bytedance.com' }
-  s.source           = { :git => 'https://github.com/quxiangyu/XYUIKitTreeManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SummitXY/XYUIKitTreeManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

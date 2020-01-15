@@ -34,4 +34,14 @@
     return [[self mainWindow] rootViewController];
 }
 
++ (CGSize)windowSize {
+
+    UIWindow *window = [self mainWindow];
+    CGSize windowSize = window.bounds.size;
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] < 8.0f && UIInterfaceOrientationIsLandscape([UIApplication sharedApplication].statusBarOrientation)) {
+        return CGSizeMake(windowSize.height, windowSize.width);
+    }
+    return windowSize;
+}
+
 @end
